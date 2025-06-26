@@ -18,10 +18,10 @@ do
     xattr -d com.apple.quarantine "$f" 2>/dev/null
 done
 
-12. Once the workflow is complete, you can rename the workflow by navigating to your Apple Menu, selecting "File" and selecting "Rename...".
+12. Once the workflow is complete, navigate to the apple menu, click "File" and select "Save" (or just use (command-s)), it will prompt you to name the file, name accordingly so you don't forget the workflow you have.
 Finally, click the "Run" button on the top right hand corner. You can test this workflow by downloading the file provided in this repository. NOTE: will only work if a workflow was made for a ".gff.txt" file. 
 
-Automator works even when you quit the application, note that it may take up to 5 seconds for the File to change its name.
+Automator works even when you quit the application, note that it may take up to 5 seconds for the File to change its name. If you quit automator and would like to access your previous workflow you can, open automator, navigate to your apple menu, select "File" and select the "Open Recent" menu, and your workflow should be there. It is also accessible in your Automator folder or any location you put it when you saved the workflow on Finder.
 
 Thank you!
 
