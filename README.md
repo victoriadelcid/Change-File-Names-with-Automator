@@ -5,7 +5,7 @@ Instructions on how to use:
 1. All macs should have Automator already installed, it should be located in the launchpad.
 2. When opening Automator, there is a search bar in the top left-hand corner. Type "Rename Finder Items" and select.
 3. On the right-hand side a workflow should appear. NOTE: a warning should pop up prompting you the choice of saving a copy of the original file, select don't add. 
-4. At the top of the workflow there should be an option to select the location at which Automator will receive and change these files. Select the location of preference. I recommend selecting the location in which files automatically download in your computer. If files automatically go to multiple locations, you would have to repeat steps 5-_ for each location you would like Automator to change your files in.
+4. At the top of the workflow there should be an option to select the location at which Automator will receive and change these files. Select the location of preference. I recommend selecting the location in which files automatically download in your computer. If files automatically go to multiple locations, you would have to repeat steps 5-12 for each location you would like Automator to change your files in.
 5. On the first action of the workflow, replace the "Add Date or Time" drop-down to "Replace Text".
 6. In the "Find:" textbox, type what your file is originally. For example if I downloaded a .gff file, but it downloaded as ".gff.txt", I would type ".gff.txt".
 7. Right next to the find box is a drop down, enusre that it is selected to "full name", and also make sure that "ignore case" is checked.
@@ -18,8 +18,8 @@ do
     xattr -d com.apple.quarantine "$f" 2>/dev/null
 done
 
-Once the workflow is complete, you can rename the workflow by navigating to your Apple Menu, selecting "File" and selecting "Rename...".
-Finally, click the "Run" button on the top right hand corner.
+12. Once the workflow is complete, you can rename the workflow by navigating to your Apple Menu, selecting "File" and selecting "Rename...".
+Finally, click the "Run" button on the top right hand corner. You can test this workflow by downloading the file provided in this repository. NOTE: will only work if a workflow was made for a ".gff.txt" file. 
 
 Automator works even when you quit the application, note that it may take up to 5 seconds for the File to change its name.
 
