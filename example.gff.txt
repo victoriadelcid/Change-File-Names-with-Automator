@@ -1,0 +1,3 @@
+##gff-version 3
+chr1	RefSeq	gene	11874	14409	.	+	.	ID=gene0;Name=DDX11L1
+chr1	RefSeq	exon	11874	12227	.	+	.	Parent=
